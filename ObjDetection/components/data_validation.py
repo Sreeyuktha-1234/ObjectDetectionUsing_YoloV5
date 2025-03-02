@@ -1,9 +1,9 @@
 import os,sys
 import shutil
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-from wasteDetection.entity.config_entity import DataValidationConfig
-from wasteDetection.entity.artifacts_entity import (DataIngestionArtifact,
+from ObjDetection.logger import logging
+from ObjDetection.exception import AppException
+from ObjDetection.entity.config_entity import DataValidationConfig
+from ObjDetection.entity.artifacts_entity import (DataIngestionArtifact,
                                                  DataValidationArtifact)
 
 

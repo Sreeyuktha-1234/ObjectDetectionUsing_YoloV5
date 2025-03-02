@@ -1,10 +1,10 @@
 import os,sys
 import yaml
-from wasteDetection.utils.main_utils import read_yaml_file
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-from wasteDetection.entity.config_entity import ModelTrainerConfig
-from wasteDetection.entity.artifacts_entity import ModelTrainerArtifact
+from ObjDetection.utils.main_utils import read_yaml_file
+from ObjDetection.logger import logging
+from ObjDetection.exception import AppException
+from ObjDetection.entity.config_entity import ModelTrainerConfig
+from ObjDetection.entity.artifacts_entity import ModelTrainerArtifact
 
 
 

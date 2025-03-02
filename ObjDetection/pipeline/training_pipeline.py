@@ -1,16 +1,16 @@
 import sys, os
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-from wasteDetection.components.data_ingestion import DataIngestion
-from wasteDetection.components.data_validation import DataValidation
-from wasteDetection.components.model_trainer import ModelTrainer
+from ObjDetection.logger import logging
+from ObjDetection.exception import AppException
+from ObjDetection.components.data_ingestion import DataIngestion
+from ObjDetection.components.data_validation import DataValidation
+from ObjDetection.components.model_trainer import ModelTrainer
 
 
-from wasteDetection.entity.config_entity import (DataIngestionConfig,
+from ObjDetection.entity.config_entity import (DataIngestionConfig,
                                                  DataValidationConfig,
                                                  ModelTrainerConfig)
 
-from wasteDetection.entity.artifacts_entity import (DataIngestionArtifact,
+from ObjDetection.entity.artifacts_entity import (DataIngestionArtifact,
                                                     DataValidationArtifact,
                                                     ModelTrainerArtifact)
 

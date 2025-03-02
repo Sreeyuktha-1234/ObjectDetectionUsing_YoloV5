@@ -2,10 +2,10 @@ import os
 import sys
 import zipfile
 import gdown
-from wasteDetection.logger import logging
-from wasteDetection.exception import AppException
-from wasteDetection.entity.config_entity import DataIngestionConfig
-from wasteDetection.entity.artifacts_entity import DataIngestionArtifact
+from ObjDetection.logger import logging
+from ObjDetection.exception import AppException
+from ObjDetection.entity.config_entity import DataIngestionConfig
+from ObjDetection.entity.artifacts_entity import DataIngestionArtifact
 
 
 class DataIngestion:
